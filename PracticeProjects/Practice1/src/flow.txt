@@ -1,0 +1,24 @@
+------------FLOW------------
+
+1. Create a new project
+2. select the component
+3. imported essential hooks
+4. created few useStates 
+5. created a useEffect in which we created a function named fetchProducts
+    and made it asynchronous to wait for the API response
+6. applied error handling using try catch finally block to handle the errors
+   and apply the fetching logic
+
+7. Inside the fetchProduct function we checked the response and converted it into JSON, updated the state variable using state function to handle the data
+
+8.also we updated the dependency array of useEffect so that at the time of each  search our component gets rerender.
+
+9. Also handled the errors in the catch block and set the loading state to false using finally.
+
+10. Then we designed the UI part inside the return statement
+
+11. Using map function we mapped each product in a desired manner like the specific details about the product
+
+12. also we applied the loading logic at the time of API calling.
+
+13. As a  result when we are searching something, on the basis of search input we are getting the response.
