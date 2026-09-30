@@ -1,10 +1,12 @@
+
+import "./App.css";
+
 import JobApplicationForm from "./components/JobApplicationForm";
-// import "./App.css";
 
 function App() {
   return (
     <div className="container">
-      
+      <JobApplicationForm />
     </div>
   );
 }
