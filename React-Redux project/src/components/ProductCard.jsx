@@ -10,9 +10,9 @@ const ProductCard = ({product}) => {
 
   return (
     <div className='product-card'>
-        <h3>{product.name}</h3>
+        i<h3>{product.name}</h3>
 
-        <p>{product.price}</p>
+        <p>{product.prce}</p>
 
         <button onClick={handleAddtoCart}>Add to cart</button>
     </div>
